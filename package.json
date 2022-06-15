@@ -1,0 +1,23 @@
+{
+  "name": "adobeio-samples-react-ssr",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@adobe/aio-lib-runtime": "^4.2.1",
+    "esbuild": "^0.14.43",
+    "npm-run-all": "^4.1.5",
+    "yaml": "^2.1.1"
+  },
+  "type": "module",
+  "scripts": {
+    "mkdir": "node scripts/mkdir",
+    "esbuild": "node scripts/esbuild",
+    "zip": "node scripts/zip",
+    "deploy": "aio app deploy --no-build",
+    "start": "npm-run-all mkdir esbuild zip deploy"
+  }
+}
