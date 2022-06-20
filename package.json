@@ -16,8 +16,6 @@
   "scripts": {
     "mkdir": "node scripts/mkdir",
     "esbuild": "node scripts/esbuild",
-    "zip": "node scripts/zip",
-    "deploy": "aio app deploy --no-build",
-    "start": "npm-run-all mkdir esbuild zip deploy"
+    "zip": "node scripts/zip"
   }
 }

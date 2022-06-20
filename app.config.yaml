@@ -1,6 +1,7 @@
 application:
+  hooks:
+    build-actions: npm-run-all mkdir esbuild zip
   actions: actions
-  web: web-src
   runtimeManifest:
     packages:
       adobeio-samples-react-ssr:

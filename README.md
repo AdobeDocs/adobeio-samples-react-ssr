@@ -8,6 +8,6 @@ See https://developer.adobe.com/app-builder/docs/getting_started/
 
 ## Deployment
 
-Run the command  `npm start`
+Run the command  `aio app deploy`
 
 Live demo: https://53444-reactssr18.adobeioruntime.net/api/v1/web/adobeio-samples-react-ssr/generic
